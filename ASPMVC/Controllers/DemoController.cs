@@ -24,6 +24,7 @@ namespace ASPMVC.Controllers
             return Ok("J'ai atteint /Demo/RoutingAttribute à l'aide d'un RouteAttribute");
         }
 
+        //GET : /Demo/LogChat?message=texte
         public IActionResult LogChat(string message)
         {
             //if (message is null) message = "Pas de message";  /*Avec if*/
